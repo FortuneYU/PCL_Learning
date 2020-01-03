@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\PCL_learning\1.1.1_read_PCD_InFolderOfficiaExample\source\pcd_read.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\PCL_learning\1.1.1_read_PCD_InFolderOfficiaExample\source\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2EA73BC4-B234-3827-A2CA-F5D8C1E75337}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
