@@ -24,7 +24,7 @@ http://www.pointclouds.org/documentation/tutorials/cloud_viewer.php#cloud-viewer
 
 ## Results
 
-![Aaron Swartz](https://raw.githubusercontent.com/FortuneYU/PCL_Learning/master/1.1.1_read_PCD_InFolderOfficiaExample/1.1.1_pcd_read.png)
+![Aaron Swartz](https://github.com/FortuneYU/PCL_Learning/blob/master/1.2.0_read_PCD_and_visualize/1.2.0_pcd_read_visualizer.png)
 
 
 
