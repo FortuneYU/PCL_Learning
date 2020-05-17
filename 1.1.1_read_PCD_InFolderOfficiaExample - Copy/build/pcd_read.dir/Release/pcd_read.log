@@ -1,0 +1,7 @@
+﻿  Building Custom Rule C:/PCL_learning/1.1.1_read_PCD_InFolderOfficiaExample/source/CMakeLists.txt
+  CMake does not need to re-run because C:/PCL_learning/1.1.1_read_PCD_InFolderOfficiaExample/build/CMakeFiles/generate.stamp is up-to-date.
+  pcd_read.cpp
+C:\Program Files\PCL 1.8.0\include\pcl-1.8\pcl/point_traits.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+C:\Program Files\PCL 1.8.0\include\pcl-1.8\pcl/visualization/interactor_style.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+C:\Program Files\PCL 1.8.0\include\pcl-1.8\pcl/visualization/pcl_visualizer.h(1618): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+  pcd_read.vcxproj -> C:\PCL_learning\1.1.1_read_PCD_InFolderOfficiaExample\build\Release\pcd_read.exe

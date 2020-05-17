@@ -1,0 +1,72 @@
+﻿  ConvertTXTtoPCD.cpp
+D:\github\PCL_Learning\10.1_ConvertTXTtoPCD\source\ConvertTXTtoPCD.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+C:\Program Files\PCL 1.8.0\include\pcl-1.8\pcl/point_traits.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\github\PCL_Learning\10.1_ConvertTXTtoPCD\source\ConvertTXTtoPCD.cpp(30): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\ucrt\stdio.h(208): note: see declaration of 'fopen'
+D:\github\PCL_Learning\10.1_ConvertTXTtoPCD\source\ConvertTXTtoPCD.cpp(34): warning C4477: 'fscanf' : format string '%1f' requires an argument of type 'float *', but variadic argument 4 has type 'double *'
+  D:\github\PCL_Learning\10.1_ConvertTXTtoPCD\source\ConvertTXTtoPCD.cpp(34): note: consider using '%lf' in the format string
+D:\github\PCL_Learning\10.1_ConvertTXTtoPCD\source\ConvertTXTtoPCD.cpp(34): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\ucrt\stdio.h(1197): note: see declaration of 'fscanf'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xmemory(102): warning C4996: 'std::uninitialized_copy::_Unchecked_iterators::_Deprecate': Call to 'std::uninitialized_copy' with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xmemory(102): note: see declaration of 'std::uninitialized_copy::_Unchecked_iterators::_Deprecate'
+  C:\Program Files\PCL 1.8.0\3rdParty\Boost\include\boost-1_61\boost/signals2/detail/auto_buffer.hpp(191): note: see reference to function template instantiation '_FwdIt *std::uninitialized_copy<I,boost::shared_ptr<void>*>(_InIt,_InIt,_FwdIt)' being compiled
+          with
+          [
+              _FwdIt=boost::shared_ptr<void> *,
+              I=boost::shared_ptr<void> *,
+              _InIt=boost::shared_ptr<void> *
+          ]
+  C:\Program Files\PCL 1.8.0\3rdParty\Boost\include\boost-1_61\boost/signals2/detail/auto_buffer.hpp(178): note: see reference to function template instantiation 'void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_rai<I,false>(I,I,boost::shared_ptr<void> *,const boost::integral_constant<bool,false> &)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  C:\Program Files\PCL 1.8.0\3rdParty\Boost\include\boost-1_61\boost/signals2/detail/auto_buffer.hpp(178): note: see reference to function template instantiation 'void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_rai<I,false>(I,I,boost::shared_ptr<void> *,const boost::integral_constant<bool,false> &)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  C:\Program Files\PCL 1.8.0\3rdParty\Boost\include\boost-1_61\boost/signals2/detail/auto_buffer.hpp(204): note: see reference to function template instantiation 'void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<I>(I,I,boost::shared_ptr<void> *,std::random_access_iterator_tag)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  C:\Program Files\PCL 1.8.0\3rdParty\Boost\include\boost-1_61\boost/signals2/detail/auto_buffer.hpp(203): note: see reference to function template instantiation 'void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<I>(I,I,boost::shared_ptr<void> *,std::random_access_iterator_tag)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  C:\Program Files\PCL 1.8.0\3rdParty\Boost\include\boost-1_61\boost/signals2/detail/auto_buffer.hpp(296): note: see reference to function template instantiation 'void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<boost::shared_ptr<void>*>(I,I,boost::shared_ptr<void> *)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  C:\Program Files\PCL 1.8.0\3rdParty\Boost\include\boost-1_61\boost/signals2/detail/auto_buffer.hpp(296): note: see reference to function template instantiation 'void boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::copy_impl<boost::shared_ptr<void>*>(I,I,boost::shared_ptr<void> *)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>,
+              I=boost::shared_ptr<void> *
+          ]
+  C:\Program Files\PCL 1.8.0\3rdParty\Boost\include\boost-1_61\boost/signals2/detail/auto_buffer.hpp(294): note: while compiling class template member function 'boost::shared_ptr<void> *boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::move_to_new_buffer(unsigned __int64,const boost::true_type &)'
+          with
+          [
+              T=boost::shared_ptr<void>
+          ]
+  C:\Program Files\PCL 1.8.0\3rdParty\Boost\include\boost-1_61\boost/signals2/detail/auto_buffer.hpp(302): note: see reference to function template instantiation 'boost::shared_ptr<void> *boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>::move_to_new_buffer(unsigned __int64,const boost::true_type &)' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>
+          ]
+  C:\Program Files\PCL 1.8.0\3rdParty\Boost\include\boost-1_61\boost/signals2/connection.hpp(53): note: see reference to class template instantiation 'boost::signals2::detail::auto_buffer<boost::shared_ptr<void>,boost::signals2::detail::store_n_objects<10>,boost::signals2::detail::default_grow_policy,std::allocator<T>>' being compiled
+          with
+          [
+              T=boost::shared_ptr<void>
+          ]
+  C:\Program Files\PCL 1.8.0\3rdParty\Boost\include\boost-1_61\boost/signals2/connection.hpp(55): note: see reference to class template instantiation 'boost::signals2::detail::garbage_collecting_lock<Mutex>' being compiled
+  ConvertTXTtoPCD.vcxproj -> D:\github\PCL_Learning\10.1_ConvertTXTtoPCD\build\Debug\ConvertTXTtoPCD.exe
+  ConvertTXTtoPCD.vcxproj -> D:/github/PCL_Learning/10.1_ConvertTXTtoPCD/build/Debug/ConvertTXTtoPCD.pdb (Full PDB)

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\github\PCL_Learning\10.1_ConvertTXTtoPCD\build\CMakeFiles\99fc8e90c9f9b0716a03a54a5afd5263\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{85111601-59BA-3AA4-ABF5-0D7C1B525ECF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
